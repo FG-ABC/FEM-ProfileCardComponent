@@ -21,7 +21,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Links
 
 - Challenge URL:  [Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ)
-- Live Site URL: [Live URL]()
+- Live Site URL: [Live URL](https://fg-abc.github.io/FEM-ProfileCardComponent/)
 
 ## My process
 I built this project with React and Tailwind CSS.
