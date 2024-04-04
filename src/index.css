@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    }
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "YOPQ" 300;
+}
+
+h2{
+    font-weight: 700;
+    font-size: x-large;
+    text-shadow: 0.25px 0 #000000;
+}
+
+h3{
+    
+    color: hsl(0, 0%, 59%);
+}
+
+img{
+    margin-top: 24%;
+    border: 7px solid white
+}
+
+#App{
+    background-color: hsl(185, 75%, 39%);
+}
+
+#Card{
+    background-color: white;
+    min-width: 320px;
+    max-width: 345px;
+}
+
+#bg-top{
+    width: 100vw;
+    translate: -5vw -40vh;
+}
+
+#bg-bottom{
+    width: 100vw;
+    translate: 10vw 40vh;
+}
+
+#Card-bg{
+    background-image: url('./assets/images/bg-pattern-card.svg');
+}
+/* 
+@media screen and (min-width: 640px) {
+    .faqHolder {
+      width: 650px;
+    }
+
+    body{
+        background-image: url('./assets/images/background-pattern-desktop.svg');
+    }
+  } */
